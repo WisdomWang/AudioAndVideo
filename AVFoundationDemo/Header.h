@@ -9,5 +9,8 @@
 #ifndef Header_h
 #define Header_h
 
+#define xScreenWidth        ([UIScreen mainScreen].bounds.size.width)
+#define xScreenHeight       ([UIScreen mainScreen].bounds.size.height)
+
 
 #endif /* Header_h */

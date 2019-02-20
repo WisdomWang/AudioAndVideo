@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A25E8A4221D3EC9006812BA /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A25E8A3221D3EC9006812BA /* PlayVideoViewController.m */; };
 		4A3BF6EA214F94A3001FAEF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF6E9214F94A3001FAEF6 /* AppDelegate.m */; };
 		4A3BF6ED214F94A3001FAEF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF6EC214F94A3001FAEF6 /* ViewController.m */; };
 		4A3BF6F0214F94A3001FAEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BF6EE214F94A3001FAEF6 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		4A3BF6F8214F94A5001FAEF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF6F7214F94A5001FAEF6 /* main.m */; };
 		4A3BF702214F94A5001FAEF6 /* AVFoundationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF701214F94A5001FAEF6 /* AVFoundationDemoTests.m */; };
 		4A3BF70D214F94A5001FAEF6 /* AVFoundationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF70C214F94A5001FAEF6 /* AVFoundationDemoUITests.m */; };
+		4A3BF71B214FA1B4001FAEF6 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BF71A214FA1B4001FAEF6 /* 1.mp3 */; };
+		4A3BF720214FAC33001FAEF6 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BF71F214FAC33001FAEF6 /* 2.mp4 */; };
+		4A9E46CA219AAA3200F52F24 /* WordToAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E46C9219AAA3200F52F24 /* WordToAudioViewController.m */; };
+		4A9E46CE219AB3E400F52F24 /* AVAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E46CD219AB3E400F52F24 /* AVAudioPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A25E8A2221D3EC9006812BA /* PlayVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		4A25E8A3221D3EC9006812BA /* PlayVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
 		4A3BF6E5214F94A3001FAEF6 /* AVFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3BF6E8214F94A3001FAEF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A3BF6E9214F94A3001FAEF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		4A3BF708214F94A5001FAEF6 /* AVFoundationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3BF70C214F94A5001FAEF6 /* AVFoundationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDemoUITests.m; sourceTree = "<group>"; };
 		4A3BF70E214F94A5001FAEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3BF71A214FA1B4001FAEF6 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		4A3BF71F214FAC33001FAEF6 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		4A9E46C8219AAA3200F52F24 /* WordToAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordToAudioViewController.h; sourceTree = "<group>"; };
+		4A9E46C9219AAA3200F52F24 /* WordToAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordToAudioViewController.m; sourceTree = "<group>"; };
+		4A9E46CB219AACDC00F52F24 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4A9E46CC219AB3E400F52F24 /* AVAudioPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerViewController.h; sourceTree = "<group>"; };
+		4A9E46CD219AB3E400F52F24 /* AVAudioPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,19 @@
 		4A3BF6E7214F94A3001FAEF6 /* AVFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A3BF71A214FA1B4001FAEF6 /* 1.mp3 */,
+				4A3BF71F214FAC33001FAEF6 /* 2.mp4 */,
+				4A9E46CB219AACDC00F52F24 /* Header.h */,
 				4A3BF6E8214F94A3001FAEF6 /* AppDelegate.h */,
 				4A3BF6E9214F94A3001FAEF6 /* AppDelegate.m */,
 				4A3BF6EB214F94A3001FAEF6 /* ViewController.h */,
 				4A3BF6EC214F94A3001FAEF6 /* ViewController.m */,
+				4A9E46C8219AAA3200F52F24 /* WordToAudioViewController.h */,
+				4A9E46C9219AAA3200F52F24 /* WordToAudioViewController.m */,
+				4A9E46CC219AB3E400F52F24 /* AVAudioPlayerViewController.h */,
+				4A9E46CD219AB3E400F52F24 /* AVAudioPlayerViewController.m */,
+				4A25E8A2221D3EC9006812BA /* PlayVideoViewController.h */,
+				4A25E8A3221D3EC9006812BA /* PlayVideoViewController.m */,
 				4A3BF6EE214F94A3001FAEF6 /* Main.storyboard */,
 				4A3BF6F1214F94A4001FAEF6 /* Assets.xcassets */,
 				4A3BF6F3214F94A4001FAEF6 /* LaunchScreen.storyboard */,
@@ -237,6 +260,8 @@
 			files = (
 				4A3BF6F5214F94A4001FAEF6 /* LaunchScreen.storyboard in Resources */,
 				4A3BF6F2214F94A4001FAEF6 /* Assets.xcassets in Resources */,
+				4A3BF71B214FA1B4001FAEF6 /* 1.mp3 in Resources */,
+				4A3BF720214FAC33001FAEF6 /* 2.mp4 in Resources */,
 				4A3BF6F0214F94A3001FAEF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A25E8A4221D3EC9006812BA /* PlayVideoViewController.m in Sources */,
 				4A3BF6ED214F94A3001FAEF6 /* ViewController.m in Sources */,
 				4A3BF6F8214F94A5001FAEF6 /* main.m in Sources */,
+				4A9E46CE219AB3E400F52F24 /* AVAudioPlayerViewController.m in Sources */,
+				4A9E46CA219AAA3200F52F24 /* WordToAudioViewController.m in Sources */,
 				4A3BF6EA214F94A3001FAEF6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
